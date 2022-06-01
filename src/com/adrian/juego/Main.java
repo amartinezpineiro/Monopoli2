@@ -15,6 +15,9 @@ public class Main {
         Tablero.crearCasilla(listaCasillas);
 
         //Llamada al método que inicia la partida.
-        Tablero.partida(listaJugadores,listaCasillas,Tablero.pedirNJugadores(listaJugadores));
+        Tablero.partida(listaJugadores,listaCasillas);
+
     }
 }
+
+
